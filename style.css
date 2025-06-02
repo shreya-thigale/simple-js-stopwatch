@@ -2,28 +2,29 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background-color: #f0f4f8;
 }
 #myH1{
     font-size: 4rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e293b;
 }
 #container{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    border: 5px solid;
+    border: 5px solid #cbd5e1;
     border-radius: 50px;
-    background-color: white;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 #display{
     font-size: 5rem;
     font-family: monospace;
     font-weight: bold;
-    color: black;
-    text-shadow: 2px 2px 2px pink;
+    color: #0f172a;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     margin-bottom: 25px;
 }
 #controls button{
@@ -35,24 +36,24 @@ body{
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    color: hotpink;
+    color: #ffffff;
     transition: background-color 0.5s ease;
 }
 #startBtn{
-    background-color: yellow;
+    background-color: #22c55e;
 }
 #startBtn:hover{
-    background-color: lightyellow;
+    background-color: #16a34a;
 }
 #stopBtn{
-    background-color: lightskyblue;
+    background-color: #ef4444;
 }
 #stopBtn:hover{
-    background-color: blue;
+    background-color: #dc2626;
 }
 #resetBtn{
-    background-color: lightgreen;
+    background-color: #3b82f6;
 }
 #resetBtn:hover{
-    background-color: aquamarine;
+    background-color: #2563eb;
 }
